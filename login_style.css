@@ -49,20 +49,35 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.input{
-    
-    height: 37.19px;
-    width: 355.11px;
-    padding-left: 20px;
-    margin: 5px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 32px;
+}
+.input-email{ 
+    height: 37.19px;
+    width: 355.11px;
+    padding-left: 20px;
+    margin: 10px;
+}
+.input-pass{
+    height: 37.19px;
+    width: 355.11px;
+    padding-left: 20px;
     
 }
+.Password_positioning{
+    position: relative;
+}
+.password-eye{
+    position: absolute;
+    top: 12.53px;
+    right: 10.01px;
+    border: none;
+    cursor: pointer;
+}
+
 .input-checkbox{
     display: flex;
     justify-content: space-between;
