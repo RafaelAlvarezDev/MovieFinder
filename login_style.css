@@ -99,6 +99,18 @@ header{
     top: 383px;
     cursor: pointer;
 }
+.p-notregistered{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.a-registernow{
+    text-decoration: none;
+    color:  #29B9FC;
+}
 .or-lines{
     column-count: 3;
     
