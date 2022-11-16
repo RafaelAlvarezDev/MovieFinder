@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+/* Background */
+body{
+    background-image: url(img/back\ 2.png);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+
+}
+.title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    position: relative;
+    top: 15px;
+}
+.subtitle{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.login_container{ 
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.login_info-container{
+     height: 570px;
+     width: 445px;
+     left: 498px;
+     top: 160px;
+     border-radius: 10px;
+     text-align: center; 
+     background-color: #313131F2;
+    
+}
+
+.input-containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    
+    height: 37.19px;
+    width: 355.11px;
+    padding-left: 20px;
+    margin: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 32px;
+    
+}
+.input-checkbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 63px;
+}
+.remember-me-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #BCBCBC;
+}
+.forgot-password-text{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #29B9FC;
+    text-decoration: none;
+}
+.login-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 18px;
+    gap: 4px;
+    border-radius: 31px;
+    width: 354px;
+    height: 47px;
+    left: 544px;
+    top: 383px;
+    cursor: pointer;
+}
+.or-lines{
+    column-count: 3;
+    
+}
+.login-or{
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.line1{ 
+    margin-left: 44.55px;
+}
+.line2{
+    position: relative;
+    right: 44.55px;
+    
+}
+
+.social-button{
+    display: inline-flex;
+    margin: 10px;
+    height: 45px;
+    width: 358px;
+    left: 541px;
+    top: 531px;
+    border-radius: 35px;
+    background: #313131F2;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.social-button:hover{
+    background-color: grey;
+}
+.social-button:active{
+    background-color: rgb(75, 74, 74);
+}
+.button--text, .button--icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 7px;
+    height: 100%;
+}
+.button--icon{
+    margin-left: 69px; 
+}
