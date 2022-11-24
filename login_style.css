@@ -3,7 +3,6 @@
 /* Background */
 body{
     background-image: url(img/back\ 2.png);
-    height: 100vh;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -75,6 +74,7 @@ header{
     top: 12.53px;
     right: 10.01px;
     border: none;
+    background-color: white;
     cursor: pointer;
 }
 
@@ -150,6 +150,7 @@ color: #FFFFFF;
 
 .social-button{
     display: inline-flex;
+    align-items: center;
     margin: 10px;
     height: 45px;
     width: 358px;
@@ -173,12 +174,39 @@ color: #FFFFFF;
 .social-button:active{
     background-color: rgb(75, 74, 74);
 }
-.button--text, .button--icon{
-    display: inline-flex;
-    align-items: center;
-    padding: 0px 7px;
-    height: 100%;
+.button--text{
+    
+    text-align:left;
+    
+    
 }
 .button--icon{
     margin-left: 69px; 
+    height: 130%;
+    padding: 0px 7px;
+    
+}
+/* Responsiveness */
+@media (min-width: 834px) and (max-width:1439px ){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-size: 250%;
+        background-position: 50% 40%;
+        
+    }
+}
+@media (min-width: 640px) and (max-width: 833px ){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-size: 250%;
+        background-position: 50% 40%;
+
+    }
+
 }
