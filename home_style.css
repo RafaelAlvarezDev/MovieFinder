@@ -197,18 +197,152 @@ color: #0FEFFD;
     flex-direction: row;
     box-sizing: border-box;
     top: 22%;
-    right: 4.5%;
+    left: 1.5%;
     position: relative;
 }
 .star-column{
-    width: 2%;
+    width: 1%;
     padding: 2px;
 }
-
+.footer-background{
+    background: #1E1E1E;
+    width: 120%;
+    height: 100%;
+    position: absolute;
+}
+.footer-overlay{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
 
 .home-footer{
     grid-area: footer;
+    
 }
 .home-header{
     grid-area: header;
+}
+.footer-head-title{
+    position: relative;
+    left: 14.44%;
+right: 63.33%;
+top: 48.15%;
+bottom: 47.11%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 64px;
+/* identical to box height, or 267% */
+
+
+/* Primary/White */
+
+color: #FFFFFF;
+
+}
+.footer-grid{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    top: 10%;
+    justify-content: center;
+    position: relative;
+    
+}
+.grid-movie{
+    padding: 2%;
+    position: relative;
+}
+.movie-overlay{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    position: absolute;
+    height: 445px;
+    width: 320px;
+}
+.movie-text{
+    position: absolute;
+    left: 15%;
+    right: 18%;
+    top: 72%;
+    bottom: 14.22%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+
+
+
+/* Primary/White */
+
+color: #FFFFFF;
+
+}
+.movie-title{
+    position: absolute;
+    top: 57%;
+    left: 11.5%;
+padding: 12px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+/* or 125% */
+
+
+color: #FFFFFF;
+}
+.movie-title2{
+    position: absolute;
+    top: 50%;
+    left: 11.5%;
+padding: 12px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+/* or 125% */
+
+
+color: #FFFFFF;
+}
+.movie-title3{
+    position: absolute;
+    top: 58%;
+    left: 11.5%;
+padding: 12px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+/* or 125% */
+
+
+color: #FFFFFF;
+}
+
+.footer-star-rating{
+    
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    top: 65%;
+    left: 14.5%;
+    position: absolute;
+}
+.footer-star-column{
+    width: 3%;
+    padding: 2px;
 }
