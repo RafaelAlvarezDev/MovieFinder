@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login_style.css">
-
+    
     <title>Document</title>
 </head>
 <body>
@@ -18,31 +18,32 @@
         <div class="login_info-container">
                 <span class="title">Welcome! Log in or Register</span>
                 <p><span class="subtitle">Log in to find the movies you’re looking for!</span></p>
-                <form class="input-containers">
-                <input class="input-email" type="email" placeholder="Email">
+            <form class="input-containers" id="login-form">
+                <input name="email" class="input-email" type="email" placeholder="Email">
                 <div class="Password_positioning">
-                    <input class="input-pass" type="password" placeholder="Password">
-                    <button type="submit" class="password-eye"><img src="img/Ellipse 3.svg" alt="Show or Hide password"> </button>
+                    <input name="password" class="input-pass" type="password" placeholder="Password">
+                    <button type="button" class="password-eye"><img src="img/Ellipse 3.svg" alt="Show or Hide password"> </button>
                 </div>
-            </form>
-                
+            
                 
                 <div class="input-checkbox">
-                    <div>
+                    <div class="remember-mediv">
                         <input type="checkbox" id="Remember-me"> 
-                        <label for="Remember-me" class="remember-me-text">Remember me</label>
+                        <label for="Remember-me">Remember me</label>
                     </div>
+                    <div class="forgot-password">
                     <a href="" class="forgot-password-text">Forgot password?</a> 
+                    </div>
                 </div>
                 <div>
-                    <button type="button" class="login-button">
+                    <button type="submit" class="login-button" id="submitlogin">
                         <span class="login--icon">
                             <img src="img/Login.png" alt="Log in Button">
                         </span>
                         
                     </button>
                 </div>
-            
+            </form>
                 <p class="p-notregistered">Not registered yet? <a href="" class="a-registernow">Register now</a></p>
                 <div class="or-lines">
                     <div class="line1">
@@ -85,3 +86,4 @@
     </div>
 </body>
 </html>
+<script src="login.js"></script>

@@ -80,16 +80,23 @@ header{
 
 .input-checkbox{
     display: flex;
-    justify-content: space-between;
-    padding: 0 63px;
+    
+    
 }
-.remember-me-text{
+.remember-mediv{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 32px;
     color: #BCBCBC;
+    position: relative;
+    right: 30%;
+    
+}
+.forgot-password{
+    position: relative;
+    left: 30%;
 }
 .forgot-password-text{
     font-family: Open Sans;
@@ -97,9 +104,9 @@ header{
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
-    text-align: right;
     color: #29B9FC;
     text-decoration: none;
+    
 }
 .login-button{
     display: inline-flex;
